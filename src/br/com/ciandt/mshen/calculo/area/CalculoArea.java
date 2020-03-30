@@ -11,7 +11,7 @@ public class CalculoArea {
 	this.area = area;
     }
 
-    public void calcularArea() {
-
+    public void calcularArea(int base, int altura) {
+	this.setArea(0);
     }
 }

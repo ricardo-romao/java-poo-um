@@ -4,7 +4,7 @@ public class CalculoAreaMain extends CalculoArea {
 
     public static void main(String[] args) {
 	CalculoQuadrado quadrado = new CalculoQuadrado();
-	quadrado.calcularArea(3);
+	quadrado.calcularArea(3, 3);
 	System.out.println(quadrado.getArea());
 
 	CalculoRetangulo retangulo = new CalculoRetangulo();
@@ -16,7 +16,7 @@ public class CalculoAreaMain extends CalculoArea {
 	System.out.println(triangulo.getArea());
 
 	CalculoCirculo circulo = new CalculoCirculo();
-	circulo.calcularArea(2);
+	circulo.calcularArea(2, 3.14);
 	System.out.println(circulo.getArea());
     }
 
